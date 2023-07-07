@@ -5,7 +5,7 @@ const buttonList = [
   { label: 'AC', class: 'btn gray' },
   { label: '+/-', class: 'btn gray' },
   { label: '%', class: 'btn gray' },
-  { label: '/', class: 'btn orange' },
+  { label: '÷', class: 'btn orange' },
   { label: '7', class: 'btn' },
   { label: '8', class: 'btn' },
   { label: '9', class: 'btn' },
