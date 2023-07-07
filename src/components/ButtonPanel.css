@@ -1,16 +1,18 @@
 .ButtonPanel {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 75%;
-  padding: 1rem;
+  padding: 0;
   flex-wrap: wrap;
-  gap: 0.4rem;
+  gap: 0.1rem;
 }
 
 button {
   font-family: var(--font);
   border: none;
-  border-radius: 0.8rem;
+  border-radius: 0.2rem;
   cursor: pointer;
   width: 23%;
   height: 18%;
@@ -18,7 +20,7 @@ button {
 }
 
 button:hover {
-  background-color: #d1d1d1;
+  opacity: 0.8;
 }
 
 .btn {

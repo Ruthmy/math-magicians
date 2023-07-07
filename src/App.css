@@ -1,7 +1,8 @@
 .App {
-  border-radius: 1.8rem;
-  width: 30vw;
-  height: 45vh;
+  border-radius: 0.5rem;
+  width: 30rem;
+  height: 35rem;
+  max-height: max-content;
   background-color: var(--calc-background);
   box-shadow: 0 10px 32px 13px rgba(0, 0, 0, 0.2);
   border: 2px rgba(85, 78, 78, 0.6) solid;
