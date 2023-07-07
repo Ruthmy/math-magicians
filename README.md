@@ -169,7 +169,9 @@ Install this project with:
 
 Upcoming improvements:
 
-- [x] All fulfilled.
+- [] Create full Single Page App (SPA) website.
+- [] Use API to display random quotes.
+- [] Add Tests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
