@@ -1,5 +1,6 @@
+import React from 'react';
 import Button from './Button';
-import './ButtonPanel.css';
+import '../styles/ButtonPanel.css';
 
 const buttonList = [
   { label: 'AC', class: 'btn gray' },
@@ -26,7 +27,11 @@ const buttonList = [
 const ButtonPanel = () => (
   <div className="ButtonPanel">
     {buttonList.map((button) => (
-      <Button key={button.label} value={button.label} className={button.class}>
+      <Button
+        key={button.label}
+        value={button.label}
+        className={button.class}
+      >
         {button.label}
       </Button>
     ))}
