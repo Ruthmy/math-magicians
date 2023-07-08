@@ -1,8 +1,11 @@
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({ value, className }) => (
   <>
-    <button type="button" className={className}>{value}</button>
+    <button type="button" className={className} onClick={(event) => console.log('click', value, event.target.textContent)}>
+      {value}
+    </button>
   </>
 );
 
