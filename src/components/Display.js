@@ -9,7 +9,7 @@ const Display = ({ screenValue }) => (
 );
 
 Display.propTypes = {
-  screenValue: PropTypes.number.isRequired,
+  screenValue: PropTypes.string.isRequired,
 };
 
 export default Display;

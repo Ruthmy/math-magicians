@@ -18,7 +18,7 @@ const Calculator = () => {
 
   return (
     <>
-      <Display screenValue={screenValue.next || screenValue.total || 0} />
+      <Display screenValue={screenValue.next || screenValue.total || '0'} />
       <ButtonPanel onHandleClick={onHandleClick} />
     </>
   );
