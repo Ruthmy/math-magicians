@@ -1,8 +1,15 @@
-import './Display.css';
+import React from 'react';
+import PropTypes from 'prop-types';
+import '../styles/Display.css';
 
-const Display = () => (
+const Display = ({ screenValue }) => (
   <div className="Display">
-    0
+    {screenValue}
   </div>
 );
+
+Display.propTypes = {
+  screenValue: PropTypes.string.isRequired,
+};
+
 export default Display;
