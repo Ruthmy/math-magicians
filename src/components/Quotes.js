@@ -18,15 +18,20 @@ function Quotes() {
               'Content-Type': 'application/json',
             },
           });
-        const json = await res.json();
-        setData(json[0]);
+        if (res.ok) {
+          const json = await res.json();
+          setData(json[0]);
+        } else {
+          setHasError(true);
+        }
       } catch (error) {
         setHasError(true);
+      } finally {
+        setIsLoading(false);
       }
-      setIsLoading(false);
     };
     fetchData();
-  }, [setData, setIsLoading]);
+  }, []);
 
   if (hasError) return <div>Something went wrong!</div>;
 
