@@ -4,14 +4,12 @@ import '../styles/Display.css';
 
 const Display = ({ screenValue }) => (
   <div className="Display">
-    { screenValue }
+    {screenValue}
   </div>
 );
 
-Display.defaultProps = { screenValue: '0' };
-
 Display.propTypes = {
-  screenValue: PropTypes.string,
+  screenValue: PropTypes.number.isRequired,
 };
 
 export default Display;
