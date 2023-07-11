@@ -3,14 +3,10 @@
 :root {
   --font: 'Montserrat', sans-serif;
   --font-display-size: 4rem;
+  --font-quote-size: 1.8rem;
   --background: #e8e8e8;
-  --calc-background: #505050;
-  --btn-background: #858693;
-
-  /*
   --calc-background: #1b1b1b;
   --btn-background: #505050;
-  */
 }
 
 html {
@@ -37,20 +33,12 @@ body {
   background-color: var(--background);
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
-}
-
 #root {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
+  gap: 3rem;
 }
