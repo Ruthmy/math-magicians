@@ -16,7 +16,6 @@
   justify-content: center;
   font-size: var(--font-quote-size);
   text-align: center;
-  background-color: var(--background);
 }
 
 .Quotes p {
