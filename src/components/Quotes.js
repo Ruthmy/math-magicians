@@ -33,12 +33,22 @@ function Quotes() {
     fetchData();
   }, []);
 
-  if (hasError) return <div>Something went wrong!</div>;
+  if (hasError) return <div><p>Something went wrong!</p></div>;
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) {
+    return (
+      <>
+        <div className="lds-ripple">
+          <div />
+          <div />
+        </div>
+        <p>Loading...</p>
+      </>
+    );
+  }
 
   return (
-    <div>
+    <div className="Quotes">
       <h3>{data.quote}</h3>
       <p>{data.author}</p>
     </div>

@@ -2,9 +2,11 @@
 
 :root {
   --font: 'Montserrat', sans-serif;
+  --font-title: 4rem;
+  --font-p-size: 2rem;
   --font-display-size: 4rem;
-  --font-quote-size: 1.8rem;
-  --background: #e8e8e8;
+  --font-quote-size: 3rem;
+  --font-cal-btn-size: 1.5rem;
   --calc-background: #1b1b1b;
   --btn-background: #505050;
 }
@@ -30,15 +32,52 @@ body {
   font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background);
+  background: linear-gradient(-45deg, #fad9cf, #f8c8da, #d7f0f8, #d7f8f1);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 #root {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
   gap: 3rem;
+}
+
+h1 {
+  font-size: var(--font-title);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: var(--font-quote-size);
+  text-align: center;
+}
+
+p {
+  font-size: var(--font-p-size);
+}
+
+a {
+  text-decoration: none;
+  font-size: var(--font-p-size);
+  font-weight: bold;
 }
