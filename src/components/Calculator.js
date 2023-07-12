@@ -17,10 +17,10 @@ const Calculator = () => {
   };
 
   return (
-    <>
+    <div className="App">
       <Display screenValue={screenValue.next || screenValue.total || '0'} />
       <ButtonPanel onHandleClick={onHandleClick} />
-    </>
+    </div>
   );
 };
 
