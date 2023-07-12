@@ -38,9 +38,11 @@ function Quotes() {
   if (isLoading) return <div>Loading...</div>;
 
   return (
-    <div>
-      <h3>{data.quote}</h3>
-      <p>{data.author}</p>
+    <div className="Quotes">
+      <div>
+        <h3>{data.quote}</h3>
+        <p>{data.author}</p>
+      </div>
     </div>
   );
 }
