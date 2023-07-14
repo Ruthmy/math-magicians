@@ -14,7 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    <!-- - [🚀 Live Demo](#live-demo) -->
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -85,12 +85,13 @@
 
 ---
 
-<!--
-## 🚀 Live Demo <a name="live-demo"></a>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+<!--
 - 🎤 [Project presentation: video demo](https://drive.google.com/file/d/1-eSDabquIJCbvbQblqBPvSwbDIvaRfIb/view?usp=sharing)
-- [Live Demo Link](https://iturres.github.io/TVmaze-movies-website/dist/)
 -->
+- [Live Demo Link](https://math-magicians-dx1k.onrender.com/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,8 +170,8 @@ Install this project with:
 
 Upcoming improvements:
 
-- [] Create full Single Page App (SPA) website.
-- [] Use API to display random quotes.
+- [x] Create a full Single Page App (SPA) website.
+- [x] Use API to display random quotes.
 - [] Add Tests.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -204,7 +205,7 @@ Or give it a **star** ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I thank Microverse for this fantastic opportunity, the code reviewers for their advice and time.
+I thank Microverse for this fantastic opportunity, and the code reviewers for their advice and time.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
