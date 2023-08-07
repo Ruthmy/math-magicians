@@ -33,17 +33,17 @@ function Quotes() {
     fetchData();
   }, []);
 
-  if (hasError) return <div><p>Something went wrong!</p></div>;
+  if (hasError) return <div className="Quotes"><p>Something went wrong!</p></div>;
 
   if (isLoading) {
     return (
-      <>
+      <div className="Quotes">
         <div className="lds-ripple">
           <div />
           <div />
         </div>
         <p>Loading...</p>
-      </>
+      </div>
     );
   }
 
